@@ -1,0 +1,67 @@
+<form>
+
+
+  <div class="container">
+
+
+
+<label for="name">Name
+
+<input type="text" placeholder="name" id="name" [(ngModel)]="name">
+<p>თქვენი სახელია : {{ name }}</p>
+</label>
+
+
+
+<label for="lastname">LastName
+
+  <input type="text" placeholder="lastname" id="lastname" [(ngModel)]="name">
+  <p>თქვენი გვარია : {{ name }}</p>
+  </label>
+
+
+
+
+  <label for="age">Age
+
+    <input type="text" placeholder="age" id="age" [(ngModel)]="name">
+    <p>თქვენი ასაკია : {{ name }}</p>
+    </label>
+  
+<input type="text" placeholder="name" id="name1" [(ngModel)]="name">
+<p>თქევნი ასაკია {{name}}</p>
+
+  </div>
+
+
+
+<!---ngIf---->
+
+
+
+<div *ngIf="Comicsolvency">
+
+
+this thing is for angularJS
+
+
+</div>
+
+
+
+
+<!---ngfor--->
+
+
+
+<ul>
+
+  <li *ngFor="let item of items">{{ item }}</li>
+
+</ul>
+
+
+
+
+
+</form>
